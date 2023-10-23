@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(75, 77, 75);
+}
+
+.note {
+    display: block;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#input-box {
+    width: 80%;
+    border: 2px;
+    background-color: rgb(215, 229, 241);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.row img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    text-transform: capitalize;
+    user-select: none;
+}
+
+ul li p {
+    font-size: 22px;
+}
+
+ul li img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+ul li img:hover {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
